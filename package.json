@@ -1,0 +1,31 @@
+{
+  "name": "NodeChatSystem",
+  "version": "0.0.1",
+  "description": "Realtime chat system for Tutorialzine.com",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "node",
+    "chat",
+    "system"
+  ],
+  "author": "Nikolay Anastasov",
+  "license": "MIT",
+  "dependencies": {
+    "express": "~3.5.0",
+    "gravatar": "~1.0.6",
+    "socket.io": "~0.9.16",
+    "ejs": "~0.8.5"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/fanfan1609/nodejs-chat.git"
+  },
+  "bugs": {
+    "url": "https://github.com/fanfan1609/nodejs-chat/issues"
+  },
+  "homepage": "https://github.com/fanfan1609/nodejs-chat"
+}
