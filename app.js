@@ -22,5 +22,5 @@ var io = require('socket.io').listen(app.listen(port));
 require('./config')(app, io);
 require('./routes')(app, io);
 
-console.log("Start app");
+console.log("Start app1");
 console.log('Your application is running on http://localhost:' + port);
